@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/opscode/omnibus-software.git
-  revision: 8ab0ba5673fb99ffb3f63531d9b81cf60d8e2a06
-  branch: master
+  revision: 4ec8db163559ec9eb07be6977384ddd73a615eda
+  branch: lcg/bundle-bust
   specs:
     omnibus-software (0.0.1)
 
