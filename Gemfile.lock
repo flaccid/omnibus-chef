@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/opscode/omnibus-software.git
-  revision: 4ec8db163559ec9eb07be6977384ddd73a615eda
-  branch: lcg/bundle-bust
+  revision: c43314c5910cfa444c18cd7540ae4a43a1ffc1c7
+  branch: lcg/unbundle-rspec-tests
   specs:
     omnibus-software (0.0.1)
 
@@ -18,7 +18,7 @@ GEM
     clamp (0.6.1)
     ffi (1.9.0)
     ffi (1.9.0-x86-mingw32)
-    fpm (0.4.39)
+    fpm (0.4.40)
       arr-pm (~> 0.0.8)
       backports (>= 2.6.2)
       cabin (>= 0.6.0)
