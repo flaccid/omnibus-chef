@@ -88,8 +88,8 @@ if [ "$CLEAN" = "true" ]; then
 fi
 
 # fix any root-owned perms left over from test
-sudo chown -R jenkins-node "/opt/#{project_name}"
-sudo chown -R jenkins-node "/var/cache/omnibus"
+sudo chown -R jenkins-node "/opt/${project_name}" || sudo chown -R jenkins "/opt/${project_name}"
+sudo chown -R jenkins-node "/var/cache/omnibus" || sudo chown -R jenkins "/var/cache/omnibus"
 
 # copy config into place
 cp omnibus.rb.example omnibus.rb
