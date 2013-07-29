@@ -31,6 +31,7 @@ dependency "version-manifest"
 # don't want to put this in omnibus-ruby, the default there is correct.
 # we need to have ohai correctly find num cpus on solaris, etc.
 # this is a dirty hack to do that.
+require 'omnibus/software'
 module Omnibus
   class Software
     def max_build_jobs
