@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/opscode/omnibus-software.git
-  revision: a7ed6b6d4defb4352307c706fc32eb61c369d023
+  revision: d0095806dc1a90f71741d796dd0397f9a8e9be31
   branch: lcg/openssl-make-j
   specs:
     omnibus-software (0.0.1)
